@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.contact{
+    display: flex;
+    padding: 1rem;
+}
+
+.contact-text, .contact-right{
+    width: 50%;
+}
+
+input, textarea{
+    display: block;
+    width: 100%;
+    margin-bottom: .5rem;
+    background: rgb(220, 215, 215);
+    border-radius: 4px;
+    padding: 6px;
+    outline: none;
+    border: 1px solid rgb(154, 149, 149);
+}
+
+.error{
+    background: #f9e4e8;
+    color: #e04562;
+    margin-bottom: 4px;
+}
